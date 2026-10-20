@@ -1,0 +1,15 @@
+{
+  "name": "cegat-vuln-target",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Intentionally-vulnerable local API for testing Cegat (authorized lab use only).",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
